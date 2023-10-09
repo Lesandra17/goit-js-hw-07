@@ -21,5 +21,5 @@ const lightbox = new SimpleLightbox(".gallery a", {
     captionsData: 'alt',
     enableKeyboard: true,
     captionPosition: 'bottom',
-    close: false
+    
 })
