@@ -27,10 +27,11 @@ function handlerClick(evt) {
     }
     const targetImage = evt.target.closest('.gallery__item');
     if (!targetImage) return;
-     const largeImageUrl = targetImage.querySelector('a.gallery__link').getAttribute('href');
+     
+    const largeImageUrl = targetImage.querySelector('a.gallery__link').getAttribute('href');
     console.log(largeImageUrl);
 const instance = basicLightbox.create(`
-       <img src="${largeImageUrl}" width="800" height="600">
+       <img src="${largeImageUrl}>
    `);
    instance.show()
 }
