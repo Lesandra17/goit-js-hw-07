@@ -19,7 +19,6 @@ function createMarkup(arr) {
 const lightbox = new SimpleLightbox(".gallery a", {
     captionDelay: 250,
     captionsData: 'alt',
-    enableKeyboard: true,
     captionPosition: 'bottom',
     close: false
 })
